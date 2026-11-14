@@ -1,0 +1,6 @@
+{
+  "name": "SkillForge",
+  "description": "Enterprise AI learning platform and student progress dashboard featuring personalized 4-week roadmaps, skill gap analysis, and adaptive multilingual skill assessments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

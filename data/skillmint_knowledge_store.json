@@ -1,0 +1,582 @@
+{
+  "version": 1,
+  "brandName": "SkillMint",
+  "lastUpdated": "2026-11-14",
+  "modeGuidance": {
+    "Student": {
+      "focus": "Build rock-solid CS, math, and engineering fundamentals, campus lab projects, and internship interview readiness.",
+      "brainFocus": "Algorithmic logic, structured decomposition, memory recall, and step-by-step debugging.",
+      "dailyTargetPoints": 60,
+      "corePillars": [
+        "Data Structures & Problem Decomposition",
+        "Clean Code & Debugging Habits",
+        "Coursework & Portfolio Projects",
+        "Daily Brain & Logic Puzzles"
+      ],
+      "questionPrompts": [
+        {
+          "topic": "Algorithmic Thinking",
+          "question": "When solving a tough programming problem in an exam or internship interview, how do you break it down before writing code?",
+          "hint": "Think about input constraints, brute-force baseline, data structure choice, and edge cases.",
+          "sample_key_points": [
+            "Clarify inputs, outputs, and constraints",
+            "Start with a simple working approach first",
+            "Optimize time/space with the right data structure",
+            "Test boundary and empty cases"
+          ]
+        },
+        {
+          "topic": "Database & SQL Design",
+          "question": "A campus app slows down when 5,000 students search courses at once. What 2 changes would you apply first?",
+          "hint": "Consider database indexes and avoiding repeated unnecessary queries.",
+          "sample_key_points": [
+            "Add indexes on searched columns",
+            "Paginate results and cache frequent queries"
+          ]
+        }
+      ]
+    },
+    "Individual": {
+      "focus": "Accelerate independent career mastery, ship polished real-world portfolio products, and sharpen system design skills.",
+      "brainFocus": "Product trade-off reasoning, architectural clarity, deep focus sprints, and client communication.",
+      "dailyTargetPoints": 75,
+      "corePillars": [
+        "Full-Stack Product Execution",
+        "System Architecture & Scalability",
+        "Applied AI Workflow Integration",
+        "Independent Delivery & Storytelling"
+      ],
+      "questionPrompts": [
+        {
+          "topic": "System & Product Design",
+          "question": "You are building a solo SaaS tool and pages start loading slowly under traffic. How do you diagnose and fix the bottleneck fastest?",
+          "hint": "Measure client bundle vs API latency vs database query time before rewriting.",
+          "sample_key_points": [
+            "Measure timing on API and database queries first",
+            "Add caching or batching on hot paths",
+            "Lazy-load non-critical frontend modules"
+          ]
+        },
+        {
+          "topic": "Career Portfolio Strategy",
+          "question": "How would you explain a technical trade-off you made on your personal project to a hiring manager in 60 seconds?",
+          "hint": "State the constraint, two options considered, why you picked yours, and the measurable result.",
+          "sample_key_points": [
+            "Context and constraint",
+            "Options compared",
+            "Measurable impact"
+          ]
+        }
+      ]
+    },
+    "Organization": {
+      "focus": "Elevate enterprise engineering velocity, cloud governance, security compliance, and measurable team KPIs.",
+      "brainFocus": "Risk-based architecture decisions, root-cause incident analysis, cost governance, and cross-team alignment.",
+      "dailyTargetPoints": 90,
+      "corePillars": [
+        "Cloud Governance & Cost Efficiency",
+        "Zero-Trust Security & SOC2 Readiness",
+        "CI/CD & Production Reliability",
+        "AI Automation & Team KPIs"
+      ],
+      "questionPrompts": [
+        {
+          "topic": "Enterprise Reliability",
+          "question": "A production microservice shows rising p99 latency right after a Friday deployment. Walk through your incident response steps.",
+          "hint": "Prioritize customer impact mitigation (rollback/feature flag) before deep root-cause debugging.",
+          "sample_key_points": [
+            "Contain impact via rollback or traffic shift",
+            "Inspect structured logs, error budgets, and traces",
+            "Document blameless postmortem with automated guardrails"
+          ]
+        },
+        {
+          "topic": "Company AI Governance",
+          "question": "Before rolling out an internal AI assistant to 200 company employees, what 3 governance checks must pass?",
+          "hint": "Think about data privacy, access controls, audit logging, and response accuracy.",
+          "sample_key_points": [
+            "Role-based access and PII protection",
+            "Latency/cost budgets and fallback handling",
+            "Audit logging and quality evaluation"
+          ]
+        }
+      ]
+    }
+  },
+  "users": [
+    {
+      "id": "user-arjun-corp",
+      "name": "Arjun Krishnan",
+      "age": 29,
+      "dob": "1997-04-18",
+      "mode": "Organization",
+      "email": "arjun.k@nexustech.io",
+      "authProvider": "google",
+      "avatarUrl": "/src/assets/images/avatar_company_executive_1794640301074.jpg",
+      "skills": "Enterprise Cloud Governance, Kubernetes, Microservices CI/CD, SOC2 Compliance, Terraform",
+      "projects": "Zero-Trust Internal Developer Platform, Multi-Region Failover",
+      "target_role": "Principal Cloud Platform Architect",
+      "details": "Company engineering lead upskilling platform squads on enterprise-grade resilience and cost KPIs.",
+      "points": 940,
+      "brainScore": 91,
+      "quizzesPassed": 7,
+      "completedExercisesCount": 4,
+      "dailyStreak": 9,
+      "lastDailyUpdate": "2026-11-14",
+      "skillHistory": [
+        {
+          "date": "2026-11-08",
+          "label": "Nov 8",
+          "points": 800,
+          "brainScore": 77
+        },
+        {
+          "date": "2026-11-09",
+          "label": "Nov 9",
+          "points": 823,
+          "brainScore": 79
+        },
+        {
+          "date": "2026-11-10",
+          "label": "Nov 10",
+          "points": 847,
+          "brainScore": 82
+        },
+        {
+          "date": "2026-11-11",
+          "label": "Nov 11",
+          "points": 870,
+          "brainScore": 84
+        },
+        {
+          "date": "2026-11-12",
+          "label": "Nov 12",
+          "points": 893,
+          "brainScore": 86
+        },
+        {
+          "date": "2026-11-13",
+          "label": "Nov 13",
+          "points": 917,
+          "brainScore": 89
+        },
+        {
+          "date": "2026-11-14",
+          "label": "Nov 14",
+          "points": 940,
+          "brainScore": 91
+        }
+      ],
+      "radarMetrics": {
+        "foundations": 90,
+        "brainLogic": 91,
+        "practicalLabs": 88,
+        "quizAccuracy": 92,
+        "consistency": 89
+      },
+      "joinedAt": "2026-10-04"
+    },
+    {
+      "id": "user-priya-ind",
+      "name": "Priya Natarajan",
+      "age": 25,
+      "dob": "2001-02-09",
+      "mode": "Individual",
+      "mobile": "+91 98401 22410",
+      "authProvider": "mobile",
+      "avatarUrl": "/src/assets/images/avatar_individual_creator_1794640300172.jpg",
+      "skills": "UI/UX Design Systems, React, Tailwind CSS, Freelance Client Delivery",
+      "projects": "SaaS Analytics Redesign, E-Commerce Accessibility Audit",
+      "target_role": "Senior Product Engineer",
+      "details": "Independent designer transitioning into full-stack product engineering with personal portfolio projects.",
+      "points": 860,
+      "brainScore": 86,
+      "quizzesPassed": 6,
+      "completedExercisesCount": 4,
+      "dailyStreak": 7,
+      "lastDailyUpdate": "2026-11-14",
+      "skillHistory": [
+        {
+          "date": "2026-11-08",
+          "label": "Nov 8",
+          "points": 720,
+          "brainScore": 72
+        },
+        {
+          "date": "2026-11-09",
+          "label": "Nov 9",
+          "points": 743,
+          "brainScore": 74
+        },
+        {
+          "date": "2026-11-10",
+          "label": "Nov 10",
+          "points": 767,
+          "brainScore": 77
+        },
+        {
+          "date": "2026-11-11",
+          "label": "Nov 11",
+          "points": 790,
+          "brainScore": 79
+        },
+        {
+          "date": "2026-11-12",
+          "label": "Nov 12",
+          "points": 813,
+          "brainScore": 81
+        },
+        {
+          "date": "2026-11-13",
+          "label": "Nov 13",
+          "points": 837,
+          "brainScore": 84
+        },
+        {
+          "date": "2026-11-14",
+          "label": "Nov 14",
+          "points": 860,
+          "brainScore": 86
+        }
+      ],
+      "radarMetrics": {
+        "foundations": 85,
+        "brainLogic": 86,
+        "practicalLabs": 88,
+        "quizAccuracy": 84,
+        "consistency": 85
+      },
+      "joinedAt": "2026-10-12"
+    },
+    {
+      "id": "user-maya-student",
+      "name": "Maya Chen",
+      "age": 20,
+      "dob": "2006-08-14",
+      "mode": "Student",
+      "email": "maya.chen@university.edu",
+      "authProvider": "email",
+      "avatarUrl": "/src/assets/images/avatar_learner_profile_1794635815463.jpg",
+      "skills": "Python, TypeScript, React, Data Structures, SQL Fundamentals",
+      "projects": "Campus Study Planner App, REST API Coursework",
+      "target_role": "Full-Stack Cloud Engineer",
+      "details": "Junior Computer Science undergraduate preparing for summer software engineering internships.",
+      "points": 815,
+      "brainScore": 85,
+      "quizzesPassed": 5,
+      "completedExercisesCount": 3,
+      "dailyStreak": 5,
+      "lastDailyUpdate": "2026-11-14",
+      "skillHistory": [
+        {
+          "date": "2026-11-08",
+          "label": "Nov 8",
+          "points": 640,
+          "brainScore": 68
+        },
+        {
+          "date": "2026-11-09",
+          "label": "Nov 9",
+          "points": 663,
+          "brainScore": 70
+        },
+        {
+          "date": "2026-11-10",
+          "label": "Nov 10",
+          "points": 687,
+          "brainScore": 73
+        },
+        {
+          "date": "2026-11-11",
+          "label": "Nov 11",
+          "points": 710,
+          "brainScore": 75
+        },
+        {
+          "date": "2026-11-12",
+          "label": "Nov 12",
+          "points": 733,
+          "brainScore": 77
+        },
+        {
+          "date": "2026-11-13",
+          "label": "Nov 13",
+          "points": 757,
+          "brainScore": 80
+        },
+        {
+          "date": "2026-11-14",
+          "label": "Nov 14",
+          "points": 815,
+          "brainScore": 85
+        }
+      ],
+      "radarMetrics": {
+        "foundations": 85,
+        "brainLogic": 85,
+        "practicalLabs": 77,
+        "quizAccuracy": 85,
+        "consistency": 81
+      },
+      "joinedAt": "2026-10-19"
+    },
+    {
+      "id": "user-elena-corp",
+      "name": "Elena Rostova",
+      "age": 32,
+      "dob": "1994-06-21",
+      "mode": "Organization",
+      "email": "elena.r@enterprise-ops.com",
+      "authProvider": "email",
+      "avatarUrl": "/src/assets/images/avatar_company_executive_1794640301074.jpg",
+      "skills": "AI Workflow Automation, Data Governance, Python, Team KPI Modeling",
+      "projects": "Enterprise Support Triage Pipeline, QA Automation Matrix",
+      "target_role": "Director of AI Operations",
+      "details": "Leading corporate model adoption across 35 product analysts and operations specialists.",
+      "points": 720,
+      "brainScore": 80,
+      "quizzesPassed": 5,
+      "completedExercisesCount": 3,
+      "dailyStreak": 6,
+      "lastDailyUpdate": "2026-11-14",
+      "skillHistory": [
+        {
+          "date": "2026-11-08",
+          "label": "Nov 8",
+          "points": 580,
+          "brainScore": 66
+        },
+        {
+          "date": "2026-11-09",
+          "label": "Nov 9",
+          "points": 603,
+          "brainScore": 68
+        },
+        {
+          "date": "2026-11-10",
+          "label": "Nov 10",
+          "points": 627,
+          "brainScore": 71
+        },
+        {
+          "date": "2026-11-11",
+          "label": "Nov 11",
+          "points": 650,
+          "brainScore": 73
+        },
+        {
+          "date": "2026-11-12",
+          "label": "Nov 12",
+          "points": 673,
+          "brainScore": 75
+        },
+        {
+          "date": "2026-11-13",
+          "label": "Nov 13",
+          "points": 697,
+          "brainScore": 78
+        },
+        {
+          "date": "2026-11-14",
+          "label": "Nov 14",
+          "points": 720,
+          "brainScore": 80
+        }
+      ],
+      "radarMetrics": {
+        "foundations": 79,
+        "brainLogic": 80,
+        "practicalLabs": 77,
+        "quizAccuracy": 82,
+        "consistency": 81
+      },
+      "joinedAt": "2026-11-01"
+    },
+    {
+      "id": "user-karthik-student",
+      "name": "Karthik Sundaram",
+      "age": 19,
+      "dob": "2007-11-03",
+      "mode": "Student",
+      "email": "karthik.s@college.edu",
+      "authProvider": "google",
+      "avatarUrl": "/src/assets/images/avatar_student_scholar_1794640299900.jpg",
+      "skills": "C++, Java, Algorithms, Git, Basic Linux",
+      "projects": "College Library CLI, Campus Hackathon Prototype",
+      "target_role": "Backend Systems Intern",
+      "details": "Second-year engineering student focused on competitive programming and backend API foundations.",
+      "points": 650,
+      "brainScore": 78,
+      "quizzesPassed": 4,
+      "completedExercisesCount": 2,
+      "dailyStreak": 4,
+      "lastDailyUpdate": "2026-11-14",
+      "skillHistory": [
+        {
+          "date": "2026-11-08",
+          "label": "Nov 8",
+          "points": 510,
+          "brainScore": 64
+        },
+        {
+          "date": "2026-11-09",
+          "label": "Nov 9",
+          "points": 533,
+          "brainScore": 66
+        },
+        {
+          "date": "2026-11-10",
+          "label": "Nov 10",
+          "points": 557,
+          "brainScore": 69
+        },
+        {
+          "date": "2026-11-11",
+          "label": "Nov 11",
+          "points": 580,
+          "brainScore": 71
+        },
+        {
+          "date": "2026-11-12",
+          "label": "Nov 12",
+          "points": 603,
+          "brainScore": 73
+        },
+        {
+          "date": "2026-11-13",
+          "label": "Nov 13",
+          "points": 627,
+          "brainScore": 76
+        },
+        {
+          "date": "2026-11-14",
+          "label": "Nov 14",
+          "points": 650,
+          "brainScore": 78
+        }
+      ],
+      "radarMetrics": {
+        "foundations": 78,
+        "brainLogic": 80,
+        "practicalLabs": 70,
+        "quizAccuracy": 76,
+        "consistency": 74
+      },
+      "joinedAt": "2026-10-28"
+    },
+    {
+      "id": "user-jordan-ind",
+      "name": "Jordan Patel",
+      "age": 27,
+      "dob": "1999-09-12",
+      "mode": "Individual",
+      "email": "jordan.patel@mail.com",
+      "authProvider": "email",
+      "avatarUrl": "/src/assets/images/avatar_individual_creator_1794640300172.jpg",
+      "skills": "SQL Analytics, Python Pandas, Tableau, Business Storytelling",
+      "projects": "Retail Sales Cohort Dashboard",
+      "target_role": "Applied AI & BI Analyst",
+      "details": "Self-paced learner building applied machine learning and analytics skills for career advancement.",
+      "points": 590,
+      "brainScore": 74,
+      "quizzesPassed": 3,
+      "completedExercisesCount": 2,
+      "dailyStreak": 3,
+      "lastDailyUpdate": "2026-11-14",
+      "skillHistory": [
+        {
+          "date": "2026-11-08",
+          "label": "Nov 8",
+          "points": 450,
+          "brainScore": 60
+        },
+        {
+          "date": "2026-11-09",
+          "label": "Nov 9",
+          "points": 473,
+          "brainScore": 62
+        },
+        {
+          "date": "2026-11-10",
+          "label": "Nov 10",
+          "points": 497,
+          "brainScore": 65
+        },
+        {
+          "date": "2026-11-11",
+          "label": "Nov 11",
+          "points": 520,
+          "brainScore": 67
+        },
+        {
+          "date": "2026-11-12",
+          "label": "Nov 12",
+          "points": 543,
+          "brainScore": 69
+        },
+        {
+          "date": "2026-11-13",
+          "label": "Nov 13",
+          "points": 567,
+          "brainScore": 72
+        },
+        {
+          "date": "2026-11-14",
+          "label": "Nov 14",
+          "points": 590,
+          "brainScore": 74
+        }
+      ],
+      "radarMetrics": {
+        "foundations": 74,
+        "brainLogic": 74,
+        "practicalLabs": 68,
+        "quizAccuracy": 75,
+        "consistency": 71
+      },
+      "joinedAt": "2026-11-05"
+    }
+  ],
+  "learnedQa": [
+    {
+      "id": "qa-1794642191909",
+      "question": "Urgent deadline help",
+      "normalizedKey": "urgent deadline help",
+      "answer": "Calm Critical Situation Action Plan for Arjun (Company Track):\n1. Stabilize First: Pause new changes, roll back or toggle off the failing change, and verify live service health.\n2. Isolate Root Cause: Check the most recent config, credential, or data-shape change in logs.\n3. Verify & Communicate: Run a fast smoke check, confirm team KPIs are green, and ask me to review any exact snippet or architecture trade-off!",
+      "mode": "Organization",
+      "language": "en",
+      "topic": "overview",
+      "askedAt": "2026-11-14"
+    },
+    {
+      "id": "qa-1794642173452",
+      "question": "Exam in 2 hours and my code crashes",
+      "normalizedKey": "exam hours and code crashes",
+      "answer": "You've got this, Maya! Here is your Calm Critical Study & Deadline Rescue Plan:\n1. Focus on High-Impact Core: Review the top 2 concepts for  (Data Structures & Problem Decomposition) instead of trying to read everything at once.\n2. Active 10-Minute Check: Write one working example from memory, check edge cases (empty, zero, invalid inputs), and explain why it works in 2 sentences.\n3. Test Immediately: Try one quick round in Quiz & Brain Lab or ask me your exact exam/assignment question right now!",
+      "mode": "Student",
+      "language": "en",
+      "topic": "overview",
+      "askedAt": "2026-11-14"
+    },
+    {
+      "id": "qa-1794640659125",
+      "question": "Explain React state",
+      "normalizedKey": "explain react state",
+      "answer": "State the core constraint first, explain the chosen approach with one trade-off, and include how you would verify correctness.",
+      "mode": "Student",
+      "language": "en",
+      "topic": "Problem Solving",
+      "askedAt": "2026-11-14"
+    },
+    {
+      "id": "seed-rank-1",
+      "question": "How do I reach Rank #1 faster?",
+      "normalizedKey": "reach rank 1 faster points",
+      "answer": "1. Complete daily brain & skill quizzes (67%+ awards +60 skill pts).\n2. Mark weekly roadmap exercises complete (+40 skill pts each).\n3. Claim your daily check-in & answer AI diagnostic questions (+25 to +35 pts daily) to build your streak and climb the leaderboard.",
+      "mode": "Student",
+      "language": "en",
+      "topic": "Rank & Skill Points",
+      "askedAt": "2026-11-14"
+    }
+  ]
+}
